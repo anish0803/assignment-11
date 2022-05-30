@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,900;1,400;1,500;1,800&display=swap");
+
+
+body {
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* ============General ==============*/
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.border {
+  border: 1px solid #cccccc;
+}
+.mb-10 {
+  margin-bottom: 30px;
+}
+/* ==============header=============== */
+h1 {
+  font-size: 48px;
+   background-color: white;
+   padding: 8px 20px;
+ border-radius: 8px;
+   color: black;
+}
+
+.header {
+  padding: 20px;
+  background-color: #0c4747;
+  margin-bottom: 30px;
+  position: sticky;
+  font-size: 18px;
+  top: 0;
+  z-index: 1;
+}
+
+.main {
+  margin-bottom: 30px;
+}
+
+
+
+.header a {
+  font-weight: bold;
+  color: white;
+  margin-right: 5px;
+}
+
+
+
+/* Main */
+
+.sidebar {
+  display: flex;
+  background-color: #134e4a54;
+  padding: 20px;
+  border-radius: 12px;
+  width: 40%;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.sidebar-nav a {
+  margin-bottom: 20px;
+  word-spacing: 5px;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+
+ .apply {
+  margin-bottom: 20px;
+  word-spacing: 5px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #134e4a;
+  border-radius: 5px;
+}
+
+.apply i {
+  color: white;
+  margin-right: 10px;
+}
+
+/* Gallery */
+
+ .section-mentors {
+  background-color: #134e4a54;
+  margin-left: 40px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.section-heading {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.section-mentors .flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.profile {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* footer start */
+
+.footer {
+  padding: 22px;
+  background-color: #134e4a;
+  font-weight: bold;
+}
+
+.footer a i {
+  color: white;
+  margin: 10px;
+
+  font-size: 22px;
+}
+
+.footer span {
+  color: white;
+}  
+
+

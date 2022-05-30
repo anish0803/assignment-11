@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/47ea6b8ab3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a class="anchor" href="#"><h1>Gallery</h1></a>
+        <nav class="nav">
+          <a href="#"><i class="fas fa-bell bell"></i></a>
+          <a class="name" href="">AirCampus</a>
+         <a href="#"><i class="fas fa-user-circle"></i></a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container flex flex-space">
+        <aside class="sidebar">
+          <nav class="sidebar-nav">
+            <a href="#"><i class="fa-solid fa-house"></i> <span>Home</span></a>
+            <a class="active" href="#"><i class="fa-brands fa-internet-explorer"></i>
+              <span>Explore</span></a>
+            <a href="#"><i class="fa-brands fa-blogger"></i>
+              <span>Blog</span></a>
+            <a href="#"><i class="fa-solid fa-file-pen"></i> 
+              <span>Editorial</span></a>
+            <a href="#"><i class="fa-solid fa-camera"></i>
+               <span>Submit a Photo</span></a>
+          </nav>
+          <a href="#" class="apply"><i class="fas fa-cog"></i>
+             <span>Apply</span></a>
+        </aside>
+        <section class="section-mentors">
+          <header class="section-heading">
+            <h3 class="section-heading">IMAGES</h3>
+            <span class="hr-line"></span>
+          </header>
+          <div class="flex">
+            <img class="profile" src="/images/1.jpg"alt="person-1" />
+
+            <img class="profile" src="/images/2.jpg"alt="person2" />
+            <img class="profile" src="/images/pic.jpg"alt="person3" />
+
+            <img class="profile" src="/images/1.jpg"alt="person4" />
+
+            <img class="profile" src="/images/2.jpg"alt="person5" />
+            <img class="profile" src="/images/pic.jpg"alt="person6" />
+            
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container flex">
+        <span>&copy; Aircampus</span>
+        <nav>
+          <a href="#"><i class="fab fa-instagram-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
